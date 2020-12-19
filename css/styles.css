@@ -3,13 +3,22 @@
     background-color: #30404e;
     color: white;
 }
-.nap-seo {
+.top-bar .nap-seo {
     margin: 15px 0;
 }
-.nap-seo > a {
+.top-bar .nap-seo > a {
     color: #ff961c;
 }
-.social {
+
+/* Delet margin md and sm screen */
+@media (max-width: 720px) {
+    .top-bar .nap-seo:first-child {
+        margin-bottom: 0
+    }
+}
+.top-bar .social {
     margin: 15px 0;
 }
+
+
 /* End Top Bar */
