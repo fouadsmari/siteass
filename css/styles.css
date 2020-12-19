@@ -1,0 +1,15 @@
+/* Start Top bar */
+.top-bar {
+    background-color: #30404e;
+    color: white;
+}
+.nap-seo {
+    margin: 15px 0;
+}
+.nap-seo > a {
+    color: #ff961c;
+}
+.social {
+    margin: 15px 0;
+}
+/* End Top Bar */
