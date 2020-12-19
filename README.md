@@ -13,3 +13,7 @@ Site évaluation Association
 * Linked Phone number (Good for local seo, and experience user) 
 * Linked Mail (Good for local seo and UI)
 * Social media icons
+
+# Bug top bar
+--------------- 
+* delete margin between nap and social icons.
