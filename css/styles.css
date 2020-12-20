@@ -35,3 +35,37 @@
     color: #ff961c !important;
 }
 /* End Navbar */
+
+/* Start slider */
+.overlay {
+    position: absolute;
+    width: 100%;
+    background-color: #30404e;
+    opacity: 78%;
+    height: 100%;
+    z-index: 2;
+}
+.carousel-item {
+    background-size:cover;
+    height: 80vh;
+    width: 100vw;
+}
+.carousel-caption {
+    bottom: 30vh;
+}
+.name {
+    background-color: #ff961c;
+    padding: 3px;
+}
+.s-one {
+    background-image: url('../images/slider.jpg')
+}
+
+.s-two {
+    background-image: url('../images/slider.jpg')
+}
+
+.s-three {
+    background-image: url('../images/slider.jpg')
+}
+/* End slider */

@@ -17,3 +17,11 @@ Site évaluation Association
 # Bug top bar
 --------------- 
 * delete margin between nap and social icons.
+
+## Navbar
+----------
+* Creat nav bar
+* Add logo
+* Add Hover
+* Menu center
+
