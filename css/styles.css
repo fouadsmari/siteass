@@ -1,6 +1,26 @@
+/* Start General Config*/
+    /* Start colors */
+.textcolor {
+    color : #090d25;
+}
+.textwhite {
+    color: white;
+}
+    /* End colors */
+    /* Start Containers */
+.small-container {
+    margin: 0 20%;
+}
+@media (max-width: 992px) {
+    .small-container {
+        margin : 0 10px;
+    }
+}
+    /* End Containers */
+/* End General Config */
 /* Start Top bar */
 .top-bar {
-    background-color: #30404e;
+    background-color: #090d25;
     color: white;
 }
 .top-bar .nap-seo {
@@ -9,7 +29,7 @@
 .top-bar .nap-seo > a {
     color: #ff961c;
 }
-/* Delet margin md and sm screen */
+    /* Delet margin md and sm screen */
 @media (max-width: 767px) {
     .top-bar .nap-seo:first-child {
         margin-bottom: 0
@@ -79,15 +99,31 @@
     margin : 50px 0;
     width: 25%;
     height: auto; /* Pour s'adapter avec le text au cas ou c'est plus grand */
-    box-shadow: 0px 0px 30px 0px gray;
+    box-shadow: 0px 0px 5px 0px gray;
+}
+.card:hover {
+    box-shadow: 5px 5px 5px 5px #ff961c;
+    transition: box-shadow 0.5s ease-in-out;
 }
 .card svg {
     margin: 25px auto 0;
+    color: #ff961c;
 }
 /* End service */
+/* Start event */
+.eventcolor {
+    width: 100%;
+    background-color:#090d25;
+    padding: 30px 0;
+}
+/* End event */
 
 /* Start footer */
 .colorfooter {
-    background-color: #30404e;
+    background-color: #090d25;
 }
 /* End footer */
+
+.sticky-top {
+    background-color: whitesmoke;
+}
